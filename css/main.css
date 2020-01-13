@@ -7,26 +7,6 @@
 
 }
 
-#main-frame {
-}
-
-
-
-#left-frame {
-    top:5%;
-    display:inline-block;
-    position:fixed;
-}
-
-#right-frame {
-    margin-top : 45px;
-    margin-left:280px;
-    padding-right: 20px;
-    left:20px;
-    z-index: -1;
-    
-}
-
 
 
 h1, h2, h3, h4, #menu li a, a, p, li {
@@ -50,7 +30,7 @@ html {
     padding: 10px;
     display: block;
     text-decoration: none;
-    width: 190px;
+    width: 230px;
 }
 
 .menu li a:hover{
@@ -107,6 +87,19 @@ header {
     padding-top:0px;
 }
 
+#left-frame {
+    top:5%;
+    display:inline-block;
+    position:fixed;
+}
+
+#right-frame {
+    margin-top : 45px;
+    margin-left:280px;
+    padding-right: 20px;
+    left:20px;
+    z-index: -1;
+}
 
 h1 {
     font-family: cursive;
@@ -134,7 +127,6 @@ footer {
     padding-top:20px;
     display:inline-block;
     border-top : 1px solid #afafaf;
-    
 }
 
 
@@ -192,4 +184,25 @@ caption {
 
 iframe {
 border: 0;
-} 
+}
+
+@media (max-width: 640px) {
+    #left-frame {
+        display: none;
+    }
+
+    #right-frame {
+        margin-top : 45px;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-right: 0;
+        margin-left:0;
+        z-index: -1;
+    }
+
+    #frame-main {
+        margin:auto;
+        margin-top:0px;
+        padding-top:0px;
+    }
+}
