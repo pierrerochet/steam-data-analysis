@@ -101,6 +101,10 @@ header {
     z-index: -1;
 }
 
+.table-frame{
+    width: 700px;
+}
+
 h1 {
     font-family: cursive;
 }
