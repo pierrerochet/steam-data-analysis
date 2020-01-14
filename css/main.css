@@ -4,7 +4,6 @@
     margin:0;
     padding: 0;
     bottom:0;
-
 }
 
 
@@ -17,7 +16,6 @@ html {
     font-family: sans-serif;
     padding:0px;
     margin:0;
-
 }
 
 .menu {
@@ -42,7 +40,6 @@ html {
 
 th, td, caption {
     padding:10px;
-    
 }
 
 hr {
@@ -81,7 +78,7 @@ header {
 }
 
 #frame-main {
-    width: 1000px;;
+    width: 1000px;
     margin:auto;
     margin-top:0px;
     padding-top:0px;
